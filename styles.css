@@ -1,0 +1,123 @@
+/* --- General Styles --- */
+
+body {
+    font-family: Arial, sans-serif; 
+    color: #444; 
+    margin: 0;
+    padding: 0;
+    background-image: url('lbgrounf.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center; 
+
+  
+}
+
+ul {
+    list-style: none; /* Removes bullet points from lists */
+    padding: 0; /* Removes default padding from lists */
+}
+
+button:focus {
+    outline: 0; /* Removes the default outline when a button is focused */
+}
+
+/* --- Container Styles --- */
+
+.container {
+    max-width: 700px; 
+    margin: 0 auto; 
+    padding: 100px 50px;
+    text-align: center; 
+}
+
+.container h1 {
+    margin-bottom: 20px; /* Adds space below the main heading */
+}
+
+.page-description {
+    font-size: 1.1rem; /* Sets the font size for the page description */
+    margin: 0 auto; /* Centers the page description horizontally */
+}
+
+.tz-link {
+    font-size: 1em; /* Sets the font size for the tutorialzine link */
+    color: #1da7da; /* Sets the color for the tutorialzine link */
+    text-decoration: none; /* Removes underline from the tutorialzine link */
+}
+
+.no-browser-support {
+    display: none; /* Hides the no-browser-support message by default */
+    font-size: 1.2rem; /* Sets the font size for the no-browser-support message */
+    color: #0b0201; /* Sets the color for the no-browser-support message */
+    margin-top: 35px; /* Adds space above the no-browser-support message */
+}
+
+/* --- App Styles --- */
+
+.app {
+    margin: 40px auto; /* Adds margin around the app section and centers it */
+}
+
+#note-textarea {
+    margin: 20px 0; /* Adds margin above and below the note textarea */
+}
+
+#recording-instructions {
+    margin: 15px auto 60px; /* Adds margin around the recording instructions */
+}
+
+#notes {
+    padding-top: 20px; /* Adds padding above the notes section */
+}
+
+.note .header {
+    font-size: 0.9em; /* Sets the font size for note headers */
+    color: #888; /* Sets the color for note headers */
+    margin-bottom: 10px; /* Adds space below note headers */
+}
+
+.note .delete-note,
+.note .listen-note {
+    text-decoration: none; 
+    margin-left: 15px; 
+}
+
+.note .content {
+    margin-bottom: 40px; 
+}
+
+/* --- Responsive Styles --- */
+
+@media (max-width: 768px) {
+    .container {
+        padding: 50px 25px; 
+    }
+
+    button {
+        margin-bottom: 10px; 
+    }
+}
+
+/* --- Notes Box Styles --- */
+
+.notes-box {
+    border: 1px solid #cccccc; /* Adds a 1-pixel solid gray border */
+    padding: 20px; /* Adds padding inside the notes box */
+    margin-top: 20px; /* Adds space above the notes box */
+    text-align: left; /* Aligns text inside the notes box to the left */
+    border-radius: 5px;
+    color: white;
+}
+/* --- Button Styles --- */
+button {
+    background-color: rgb(112, 122, 73);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:rgb(160, 200, 171); 
+}
